@@ -1,31 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@kyelias 
-abuxman
-/
-demoCSS
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-demoCSS/demoSites/Aeropostale/widget-styles-account-overview.css
-@abuxman
-abuxman Add files via upload
-Latest commit 70325d3 on Jan 19
- History
- 1 contributor
-1272 lines (1156 sloc)  39.2 KB
-   
+  
 :root {
     --color-shade-100: #FDFFFF;
     --color-shade-200: #FAFBFB;
@@ -1298,16 +1271,3 @@ body {
     left: 175px !important;
     bottom: 37px;
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
