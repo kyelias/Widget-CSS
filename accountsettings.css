@@ -525,7 +525,8 @@ html, body {
 }
 
 .widget .header {
-  display: none
+  color: rgba(13,17,23);
+  padding-bottom: 2rem
 }
 
 .widget .container {
