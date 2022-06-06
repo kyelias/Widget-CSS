@@ -1090,69 +1090,10 @@ body {
 /* ***************** Additional CSS ***************** */
 
 
-/* Activity List */
-
-#activity-list-v2 {
-    font-family: "Brown", sans-serif;
-}
-
-#activity-list-v2 ul .activity button.title span {
-    color: #fb48c4 !important;
-}
-
-#activity-list-v2 ul .activity:hover button.title span,
-#activity-list-v2 ul .activity:focus button.title span {
-    color: #6e6e6e !important;
-}
-
-#activity-list-v2 ul .activity .info-container .description {
-    color: #4a4a4a !important;
-}
-
-#activity-list-v2 ul .point-value {
-    background: #fb48c4 !important;
-    box-shadow: none;
-    color: #fff !important;
-}
-
-#activity-list-v2 ul .activity.locked .points-container .ct-points-color {
-    color: #fff !important;
-}
-
-
-/* Rewards List */
-
-#reward-list-v2 .rewards .reward .content .title,
-#reward-list-v2 .rewards .reward:nth-child(n) .content .title {
-    color: #fb48c4 !important;
-}
-
-#reward-list-v2 .rewards .reward .content a:hover .title,
-#reward-list-v2 .rewards .reward .content a:focus .title,
-#reward-list-v2 .rewards .reward:nth-child(n) .content a:hover .title,
-#reward-list-v2 .rewards .reward:nth-child(n) .content a:focus .title {
-    color: #6e6e6e !important;
-}
-
-#reward-list-v2 .rewards .reward .content .row p.points.ct-points-color,
-#reward-list-v2 .rewards .reward:nth-child(n) .content .row p.points.ct-points-color {
-    background-color: #fb48c4 !important;
-    color: #fff !important;
-    box-shadow: none;
-}
-
-#reward-list-v2 .rewards .reward.reward-not-enough-points .content .row p.points.ct-points-color,
-#reward-list-v2 .rewards .reward.reward-not-enough-points:nth-child(n) .content .row p.points.ct-points-color,
-#reward-list-v2 .rewards .reward:nth-child(n).reward-not-enough-points .content .row p.points.ct-points-color,
-#reward-list-v2 .rewards .reward:nth-child(n).reward-not-enough-points:nth-child(n) .content .row p.points.ct-points-color {
-    background-color: #fb48c4 !important;
-}
-
-
 /* Account Overview */
 
 #account-overview-two-v2 {
-    background-color: white;
+    background-color: none;
     font-family: "Brown", sans-serif !important;
     font-size: 1.6rem;
     color: #4a4a4a !important;
@@ -1204,99 +1145,6 @@ body {
 
 #account-overview-two-v2 .info-toggle {
     display: none;
-}
-
-
-/* Activity and Reward History */
-
-#activity-history-v2 {
-    color: #4a4a4a;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-#activity-history-v2 table th,
-#activity-history-v2 .activity-history th,
-#activity-history-v2 .redemption-history th,
-#activity-history-v2 .purchase-history-table th,
-#reward-history-v2 table th,
-#reward-history-v2 .activity-history th,
-#reward-history-v2 .redemption-history th,
-#reward-history-v2 .purchase-history-table th,
-#purchase-history-v2 table th,
-#purchase-history-v2 .activity-history th,
-#purchase-history-v2 .redemption-history th,
-#purchase-history-v2 .purchase-history-table th {
-    color: #4a4a4a !important;
-}
-
-#activity-history-v2 table td,
-#activity-history-v2 .activity-history td,
-#activity-history-v2 .redemption-history td,
-#activity-history-v2 .purchase-history-table td,
-#reward-history-v2 table td,
-#reward-history-v2 .activity-history td,
-#reward-history-v2 .redemption-history td,
-#reward-history-v2 .purchase-history-table td,
-#purchase-history-v2 table td,
-#purchase-history-v2 .activity-history td,
-#purchase-history-v2 .redemption-history td,
-#purchase-history-v2 .purchase-history-table td {
-    color: #4a4a4a !important;
-}
-
-#activity-history-v2 table td.points,
-#activity-history-v2 .activity-history td.points,
-#activity-history-v2 .redemption-history td.points,
-#activity-history-v2 .purchase-history-table td.points,
-#reward-history-v2 table td.points,
-#reward-history-v2 .activity-history td.points,
-#reward-history-v2 .redemption-history td.points,
-#reward-history-v2 .purchase-history-table td.points,
-#purchase-history-v2 table td.points,
-#purchase-history-v2 .activity-history td.points,
-#purchase-history-v2 .redemption-history td.points,
-#purchase-history-v2 .purchase-history-table td.points {
-    color: #fb48c4 !important;
-}
-
-#activity-history-v2 .ct-points-color {
-    color: #fb48c4 !important;
-}
-
-
-/* Reward History */
-
-#reward-history-v2 {
-    color: #fff;
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-
-/* Account Settings */
-
-#account-settings {
-    color: #fff !important;
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-#account-settings .primary-settings button.edit {
-    color: #fff !important;
-    background-color: #c31010 !important;
-    box-shadow: none;
-}
-
-#account-settings .secondary-settings button.edit {
-    color: #fff !important;
-    background-color: #c31010 !important;
-    box-shadow: none;
-    left: 175px !important;
-    bottom: 37px;
 }
 
 
