@@ -57,7 +57,6 @@
   --height-nav: 3.625rem;
   --height-subnav: 2.5rem;
   --width-max-width: 100rem;
-  --width-nav-icon: 1.875rem;
   --ratio-angle: 17%;
   --angle-height: 160;
   --angle-max-width: 1500;
@@ -103,20 +102,6 @@
       --text-button: 1.125rem;
       --text-linkblock: 1.875rem;
       --text-copyright: .75rem
-  }
-}
-
-@media (min-width: 680px) {
-   :root {
-      --width-nav-icon: 1.5rem
-  }
-}
-
-@media (min-width: 900px) {
-   :root {
-      --height-nav: 5rem;
-      --height-subnav: 2.5rem;
-      --width-nav-icon: 1.875rem
   }
 }
 
