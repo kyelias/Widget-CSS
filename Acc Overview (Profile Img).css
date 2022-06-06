@@ -1,174 +1,174 @@
 :root {
-    --color-shade-100: #FDFFFF;
-    --color-shade-200: #FAFBFB;
-    --color-shade-300: #F4F6F6;
-    --color-shade-400: #E4E5E6;
-    --color-shade-500: #97999A;
-    --color-shade-700: #5b5b5c;
-    --color-shade-900: #2D2D2E;
-    --color-orange-100: #FFF9F2;
-    --color-orange-200: #FFEDD4;
-    --color-orange-250: #ffce8a;
-    --color-orange-300: #FFC26F;
-    --color-orange-500: #eb9f42;
-    --color-orange-700: #c07825;
-    --color-orange-900: #ae6200;
-    --color-blue-100: #e0faff;
-    --color-blue-200: #cff6ff;
-    --color-blue-300: #a3e8f7;
-    --color-blue-400: #50c1e7;
-    --color-blue-500: #029ACB;
-    --color-blue-700: #007095;
-    --color-blue-900: #00445A;
-    --color-green-500: #D3F3AC;
-    --color-green-700: #466126;
-    --color-translucent-20: rgba(255, 255, 255, .2);
-    --color-transparent-07: rgba(0, 0, 0, .07);
-    --color-transparent-10: rgba(0, 0, 0, .1);
-    --color-transparent-20: rgba(0, 0, 0, .2);
-    --color-transparent-50: rgba(0, 0, 0, .5);
-    --color-translucent-nav: rgba(241, 243, 243, .86);
-    --color-translucent-subnav: rgba(249, 250, 250, .86);
-    --shadow-text: 0 1px 2px var(--color-transparent-20), 0 1px 3px var(--color-transparent-50);
-    --shadow-button: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10);
-    --shadow-buttonlight: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10), 0 6px 14px var(--color-transparent-07);
-    --shadow-text-transparent: 0 1px 2px transparent, 0 1px 4px transparent;
-    --shadow-subnav: 0 6px 8px 0 rgba(0, 0, 0, .15), 0 10px 14px rgba(0, 0, 0, .06);
-    --space-buttons: .375rem;
-    --space-a: .5rem;
-    --space-b: 1rem;
-    --space-c: 1.5rem;
-    --space-d: 2.75rem;
-    --space-e: 3.5rem;
-    --text-nav: 1rem;
-    --text-subnav: .875rem;
-    --text-title: 1.75rem;
-    --text-header: .875rem;
-    --text-widgetheader: 1.5rem;
-    --text-tiermain: 1.875rem;
-    --text-hero: 2.125rem;
-    --text-bigparagraph: 1.125rem;
-    --text-paragraph: 1.125rem;
-    --text-supporting: 1rem;
-    --text-minor: .875rem;
-    --text-button: 1rem;
-    --text-linkblock: 1.5rem;
-    --text-copyright: .5625rem;
-    --height-nav: 3.625rem;
-    --height-subnav: 2.5rem;
-    --width-max-width: 100rem;
-    --width-nav-icon: 1.875rem;
-    --ratio-angle: 17%;
-    --angle-height: 160;
-    --angle-max-width: 1500;
-    --afterangle-min-padding-top: calc((var(--angle-height) * 1px) - (var(--angle-height) / var(--angle-max-width) * 100%));
-    --afterangle-extra-padding-top: calc(var(--angle-height) / var(--angle-max-width) * 60%);
-    --angle-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 60%);
-    --angle-padding-bottom-maximum: 5rem;
-    --angle-extra-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 80%);
-    --timing-in: .15s;
-    --timing-out: .3s;
-    --z-nav: 90;
-    --z-subnav: 50;
-    --z-subnavmenu: 49;
-    --widget-offset: 20px;
-    --widget-bottom: 5px;
-    --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 3%, rgba(235, 159, 66, 0.91) 5%, rgba(235, 159, 66, 0.82) 8%, rgba(235, 159, 66, 0.7) 11%, rgba(235, 159, 66, 0.57) 15%, rgba(235, 159, 66, 0.43) 21%, rgba(235, 159, 66, 0.3) 29%, rgba(235, 159, 66, 0.18) 41%, rgba(235, 159, 66, 0.09) 56%, rgba(235, 159, 66, 0.02) 75%, rgba(235, 159, 66, 0) 100%)
+  --color-shade-100: #FDFFFF;
+  --color-shade-200: #FAFBFB;
+  --color-shade-300: #F4F6F6;
+  --color-shade-400: #E4E5E6;
+  --color-shade-500: #97999A;
+  --color-shade-700: #5b5b5c;
+  --color-shade-900: #2D2D2E;
+  --color-orange-100: #FFF9F2;
+  --color-orange-200: #FFEDD4;
+  --color-orange-250: #ffce8a;
+  --color-orange-300: #FFC26F;
+  --color-orange-500: #eb9f42;
+  --color-orange-700: #c07825;
+  --color-orange-900: #ae6200;
+  --color-blue-100: #e0faff;
+  --color-blue-200: #cff6ff;
+  --color-blue-300: #a3e8f7;
+  --color-blue-400: #50c1e7;
+  --color-blue-500: #029ACB;
+  --color-blue-700: #007095;
+  --color-blue-900: #00445A;
+  --color-green-500: #D3F3AC;
+  --color-green-700: #466126;
+  --color-translucent-20: rgba(255, 255, 255, .2);
+  --color-transparent-07: rgba(0, 0, 0, .07);
+  --color-transparent-10: rgba(0, 0, 0, .1);
+  --color-transparent-20: rgba(0, 0, 0, .2);
+  --color-transparent-50: rgba(0, 0, 0, .5);
+  --color-translucent-nav: rgba(241, 243, 243, .86);
+  --color-translucent-subnav: rgba(249, 250, 250, .86);
+  --shadow-text: 0 1px 2px var(--color-transparent-20), 0 1px 3px var(--color-transparent-50);
+  --shadow-button: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10);
+  --shadow-buttonlight: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10), 0 6px 14px var(--color-transparent-07);
+  --shadow-text-transparent: 0 1px 2px transparent, 0 1px 4px transparent;
+  --shadow-subnav: 0 6px 8px 0 rgba(0, 0, 0, .15), 0 10px 14px rgba(0, 0, 0, .06);
+  --space-buttons: .375rem;
+  --space-a: .5rem;
+  --space-b: 1rem;
+  --space-c: 1.5rem;
+  --space-d: 2.75rem;
+  --space-e: 3.5rem;
+  --text-nav: 1rem;
+  --text-subnav: .875rem;
+  --text-title: 1.75rem;
+  --text-header: .875rem;
+  --text-widgetheader: 1.5rem;
+  --text-tiermain: 1.875rem;
+  --text-hero: 2.125rem;
+  --text-bigparagraph: 1.125rem;
+  --text-paragraph: 1.125rem;
+  --text-supporting: 1rem;
+  --text-minor: .875rem;
+  --text-button: 1rem;
+  --text-linkblock: 1.5rem;
+  --text-copyright: .5625rem;
+  --height-nav: 3.625rem;
+  --height-subnav: 2.5rem;
+  --width-max-width: 100rem;
+  --width-nav-icon: 1.875rem;
+  --ratio-angle: 17%;
+  --angle-height: 160;
+  --angle-max-width: 1500;
+  --afterangle-min-padding-top: calc((var(--angle-height) * 1px) - (var(--angle-height) / var(--angle-max-width) * 100%));
+  --afterangle-extra-padding-top: calc(var(--angle-height) / var(--angle-max-width) * 60%);
+  --angle-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 60%);
+  --angle-padding-bottom-maximum: 5rem;
+  --angle-extra-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 80%);
+  --timing-in: .15s;
+  --timing-out: .3s;
+  --z-nav: 90;
+  --z-subnav: 50;
+  --z-subnavmenu: 49;
+  --widget-offset: 20px;
+  --widget-bottom: 5px;
+  --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 3%, rgba(235, 159, 66, 0.91) 5%, rgba(235, 159, 66, 0.82) 8%, rgba(235, 159, 66, 0.7) 11%, rgba(235, 159, 66, 0.57) 15%, rgba(235, 159, 66, 0.43) 21%, rgba(235, 159, 66, 0.3) 29%, rgba(235, 159, 66, 0.18) 41%, rgba(235, 159, 66, 0.09) 56%, rgba(235, 159, 66, 0.02) 75%, rgba(235, 159, 66, 0) 100%)
 }
 
 @media (min-width: 900px) {
-     :root {
-        --space-buttons: .375rem;
-        --space-a: .625rem;
-        --space-b: 1.25rem;
-        --space-c: 2.5rem;
-        --space-d: 3.125rem;
-        --space-e: 3.75rem
-    }
+   :root {
+      --space-buttons: .375rem;
+      --space-a: .625rem;
+      --space-b: 1.25rem;
+      --space-c: 2.5rem;
+      --space-d: 3.125rem;
+      --space-e: 3.75rem
+  }
 }
 
 @media (min-width: 900px) {
-     :root {
-        --text-nav: 1.125rem;
-        --text-subnav: 1rem;
-        --text-title: 2.5rem;
-        --text-header: 1rem;
-        --text-widgetheader: 1.5rem;
-        --text-tiermain: 2.25rem;
-        --text-hero: 2.5rem;
-        --text-bigparagraph: 1.25rem;
-        --text-paragraph: 1.125rem;
-        --text-supporting: 1rem;
-        --text-minor: .875rem;
-        --text-button: 1.125rem;
-        --text-linkblock: 1.875rem;
-        --text-copyright: .75rem
-    }
+   :root {
+      --text-nav: 1.125rem;
+      --text-subnav: 1rem;
+      --text-title: 2.5rem;
+      --text-header: 1rem;
+      --text-widgetheader: 1.5rem;
+      --text-tiermain: 2.25rem;
+      --text-hero: 2.5rem;
+      --text-bigparagraph: 1.25rem;
+      --text-paragraph: 1.125rem;
+      --text-supporting: 1rem;
+      --text-minor: .875rem;
+      --text-button: 1.125rem;
+      --text-linkblock: 1.875rem;
+      --text-copyright: .75rem
+  }
 }
 
 @media (min-width: 680px) {
-     :root {
-        --width-nav-icon: 1.5rem
-    }
+   :root {
+      --width-nav-icon: 1.5rem
+  }
 }
 
 @media (min-width: 900px) {
-     :root {
-        --height-nav: 5rem;
-        --height-subnav: 2.5rem;
-        --width-nav-icon: 1.875rem
-    }
+   :root {
+      --height-nav: 5rem;
+      --height-subnav: 2.5rem;
+      --width-nav-icon: 1.875rem
+  }
 }
 
 @media (min-width: 900px) {
-     :root {
-        --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 1.5%, rgba(235, 159, 66, 0.91) 2.5%, rgba(235, 159, 66, 0.82) 4%, rgba(235, 159, 66, 0.7) 5.5%, rgba(235, 159, 66, 0.57) 7.5%, rgba(235, 159, 66, 0.43) 10.5%, rgba(235, 159, 66, 0.3) 14.5%, rgba(235, 159, 66, 0.18) 20.5%, rgba(235, 159, 66, 0.09) 28%, rgba(235, 159, 66, 0.02) 37.5%, rgba(235, 159, 66, 0) 50%)
-    }
+   :root {
+      --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 1.5%, rgba(235, 159, 66, 0.91) 2.5%, rgba(235, 159, 66, 0.82) 4%, rgba(235, 159, 66, 0.7) 5.5%, rgba(235, 159, 66, 0.57) 7.5%, rgba(235, 159, 66, 0.43) 10.5%, rgba(235, 159, 66, 0.3) 14.5%, rgba(235, 159, 66, 0.18) 20.5%, rgba(235, 159, 66, 0.09) 28%, rgba(235, 159, 66, 0.02) 37.5%, rgba(235, 159, 66, 0) 50%)
+  }
 }
 
 html,
 body {
-    -webkit-font-smoothing: subpixel-antialiased;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: border-box;
-    font-feature-settings: 'pnum' 1, 'kern' 1, 'liga' 1;
-    font-size: 16px
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-feature-settings: 'pnum' 1, 'kern' 1, 'liga' 1;
+  font-size: 16px
 }
 
 body>.ng-scope {
-    padding: 20px
+  padding: 20px
 }
 
 a,
 a:link,
 a:visited {
-    font-size: inherit;
-    font-weight: inherit
+  font-size: inherit;
+  font-weight: inherit
 }
 
 *,
 *::after,
 *::after {
-    box-sizing: inherit;
-    font-family: "InterUIWeb", "Inter", BlinkMacSystemFont, system-ui, -apple-system, sans-serif
+  box-sizing: inherit;
+  font-family: "InterUIWeb", "Inter", BlinkMacSystemFont, system-ui, -apple-system, sans-serif
 }
 
 div[ui-view] {
-    position: relative
+  position: relative
 }
 
 hr {
-    border: 0;
-    border-top: 1px solid currentColor;
-    height: 0
+  border: 0;
+  border-top: 1px solid currentColor;
+  height: 0
 }
 
 .header.ct-header-color {
-    background-color: var(--color-orange-200) !important
+  background-color: var(--color-orange-200) !important
 }
 
 .header.ct-header-color .ct-header-text-color {
-    color: var(--color-blue-900) !important
+  color: var(--color-blue-900) !important
 }
 
 h1,
@@ -177,94 +177,94 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit
+  font-family: inherit
 }
 
 p,
 span {
-    font-size: 1em
+  font-size: 1em
 }
 
 .ct-points-color {
-    color: var(--color-orange-900) !important;
-    text-transform: none !important
+  color: var(--color-orange-900) !important;
+  text-transform: none !important
 }
 
 .ct-link-color {
-    color: var(--color-blue-700) !important;
-    text-decoration: none !important
+  color: var(--color-blue-700) !important;
+  text-decoration: none !important
 }
 
 .ct-link-color:hover,
 .ct-link-color:focus {
-    color: var(--color-blue-500) !important
+  color: var(--color-blue-500) !important
 }
 
 .ct-link-color:active {
-    color: var(--color-blue-900) !important
+  color: var(--color-blue-900) !important
 }
 
 a,
 a:link,
 a:visited {
-    color: var(--color-blue-700);
-    text-decoration: none;
-    transition: color .15s, box-shadow .15s, background .15s
+  color: var(--color-blue-700);
+  text-decoration: none;
+  transition: color .15s, box-shadow .15s, background .15s
 }
 
 a:hover,
 a:link:hover,
 a:visited:hover {
-    color: var(--color-blue-500);
-    text-decoration: underline
+  color: var(--color-blue-500);
+  text-decoration: underline
 }
 
 a:active,
 a:link:active,
 a:visited:active {
-    color: var(--color-blue-900);
-    text-decoration: underline;
-    transition: none
+  color: var(--color-blue-900);
+  text-decoration: underline;
+  transition: none
 }
 
 a[disabled],
 a:link[disabled],
 a:visited[disabled] {
-    pointer-events: none
+  pointer-events: none
 }
 
 a:focus,
 a:link:focus,
 a:visited:focus {
-    outline: 2px solid var(--color-blue-700);
-    outline-offset: 2px
+  outline: 2px solid var(--color-blue-700);
+  outline-offset: 2px
 }
 
 a:focus:not(:focus-visible),
 a:link:focus:not(:focus-visible),
 a:visited:focus:not(:focus-visible) {
-    outline: 0
+  outline: 0
 }
 
 a:focus-visible,
 a:link:focus-visible,
 a:visited:focus-visible {
-    outline: 2px solid var(--color-blue-700);
-    outline-offset: 2px
+  outline: 2px solid var(--color-blue-700);
+  outline-offset: 2px
 }
 
 button:focus {
-    outline: 2px solid var(--color-blue-700);
-    outline-offset: 2px
+  outline: 2px solid var(--color-blue-700);
+  outline-offset: 2px
 }
 
 button:focus:not(:focus-visible) {
-    outline: 0
+  outline: 0
 }
 
 button:focus-visible {
-    outline: 2px solid var(--color-blue-700);
-    outline-offset: 2px
+  outline: 2px solid var(--color-blue-700);
+  outline-offset: 2px
 }
 
 a.btn,
@@ -287,25 +287,25 @@ a.btn.btn-small,
 #sign-up-v2 .back-to-login-button,
 .btn.btn-email,
 a.btn.btn-email {
-    background-color: var(--color-shade-400) !important;
-    border: 0;
-    border-radius: 3px;
-    box-shadow: 0 0 0 2px var(--color-shade-400) inset, var(--shadow-button);
-    color: var(--color-shade-900) !important;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 1.125rem;
-    font-weight: 400;
-    height: auto;
-    line-height: 1.125rem;
-    margin: 0;
-    outline: 0 !important;
-    padding: .75rem 1.25rem;
-    text-decoration: none;
-    text-transform: none;
-    transition: all .15s, outline 0s, outline-offset 0s;
-    user-select: none;
-    width: auto
+  background-color: var(--color-shade-400) !important;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px var(--color-shade-400) inset, var(--shadow-button);
+  color: var(--color-shade-900) !important;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.125rem;
+  margin: 0;
+  outline: 0 !important;
+  padding: .75rem 1.25rem;
+  text-decoration: none;
+  text-transform: none;
+  transition: all .15s, outline 0s, outline-offset 0s;
+  user-select: none;
+  width: auto
 }
 
 a.btn[disabled],
@@ -328,7 +328,7 @@ a.btn.btn-small[disabled],
 #sign-up-v2 .back-to-login-button[disabled],
 .btn.btn-email[disabled],
 a.btn.btn-email[disabled] {
-    pointer-events: none
+  pointer-events: none
 }
 
 a.btn:hover,
@@ -371,10 +371,10 @@ a.btn.btn-small:focus,
 .btn.btn-email:focus,
 a.btn.btn-email:hover,
 a.btn.btn-email:focus {
-    background-color: var(--color-blue-200) !important;
-    box-shadow: 0 0 0 2px var(--color-blue-200) inset, var(--shadow-button);
-    color: var(--color-shade-900) !important;
-    text-decoration: none
+  background-color: var(--color-blue-200) !important;
+  box-shadow: 0 0 0 2px var(--color-blue-200) inset, var(--shadow-button);
+  color: var(--color-shade-900) !important;
+  text-decoration: none
 }
 
 a.btn:focus,
@@ -397,8 +397,8 @@ a.btn.btn-small:focus,
 #sign-up-v2 .back-to-login-button:focus,
 .btn.btn-email:focus,
 a.btn.btn-email:focus {
-    box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
-    outline: 0
+  box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
+  outline: 0
 }
 
 a.btn:active,
@@ -421,11 +421,11 @@ a.btn.btn-small:active,
 #sign-up-v2 .back-to-login-button:active,
 .btn.btn-email:active,
 a.btn.btn-email:active {
-    background-color: var(--color-blue-500) !important;
-    box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
-    color: var(--color-shade-900) !important;
-    text-decoration: none;
-    transition: none
+  background-color: var(--color-blue-500) !important;
+  box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
+  color: var(--color-shade-900) !important;
+  text-decoration: none;
+  transition: none
 }
 
 .ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button),
@@ -434,12 +434,12 @@ a.btn.btn-email:active {
 #upload-receipt .receipt-preview label,
 #upload-receipt-v2 .receipt-preview label,
 button.btn.btn-secondary[ng-click="doVerification()"] {
-    background-color: var(--color-orange-300) !important;
-    box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-button) !important;
-    color: var(--color-shade-900) !important;
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin: 0
+  background-color: var(--color-orange-300) !important;
+  box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-button) !important;
+  color: var(--color-shade-900) !important;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0
 }
 
 .ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button)[disabled],
@@ -448,7 +448,7 @@ button.btn.btn-secondary[ng-click="doVerification()"] {
 #upload-receipt .receipt-preview label[disabled],
 #upload-receipt-v2 .receipt-preview label[disabled],
 button.btn.btn-secondary[ng-click="doVerification()"][disabled] {
-    box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-text-transparent) !important
+  box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-text-transparent) !important
 }
 
 .ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):hover,
@@ -463,9 +463,9 @@ button.btn.btn-secondary[ng-click="doVerification()"][disabled] {
 #upload-receipt-v2 .receipt-preview label:focus,
 button.btn.btn-secondary[ng-click="doVerification()"]:hover,
 button.btn.btn-secondary[ng-click="doVerification()"]:focus {
-    background-color: var(--color-orange-250) !important;
-    box-shadow: 0 0 0 2px var(--color-orange-250) inset, var(--shadow-button) !important;
-    color: var(--color-shade-900) !important
+  background-color: var(--color-orange-250) !important;
+  box-shadow: 0 0 0 2px var(--color-orange-250) inset, var(--shadow-button) !important;
+  color: var(--color-shade-900) !important
 }
 
 .ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):focus,
@@ -474,7 +474,7 @@ button.btn.btn-secondary[ng-click="doVerification()"]:focus {
 #upload-receipt .receipt-preview label:focus,
 #upload-receipt-v2 .receipt-preview label:focus,
 button.btn.btn-secondary[ng-click="doVerification()"]:focus {
-    box-shadow: 0 0 0 2px var(--color-orange-700) inset, var(--shadow-button) !important
+  box-shadow: 0 0 0 2px var(--color-orange-700) inset, var(--shadow-button) !important
 }
 
 .ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):active,
@@ -483,115 +483,115 @@ button.btn.btn-secondary[ng-click="doVerification()"]:focus {
 #upload-receipt .receipt-preview label:active,
 #upload-receipt-v2 .receipt-preview label:active,
 button.btn.btn-secondary[ng-click="doVerification()"]:active {
-    background-color: var(--color-orange-500) !important;
-    box-shadow: 0 0 0 2px var(--color-orange-500) inset, var(--shadow-button) !important;
-    color: var(--color-shade-900) !important
+  background-color: var(--color-orange-500) !important;
+  box-shadow: 0 0 0 2px var(--color-orange-500) inset, var(--shadow-button) !important;
+  color: var(--color-shade-900) !important
 }
 
 #account-settings .edit,
 #account-settings .verify,
 #account-settings .button-container .btn.btn-secondary {
-    background: transparent !important;
-    border-radius: 3px;
-    box-shadow: 0 0 0 2px var(--color-orange-300) inset;
-    color: var(--color-shade-900) !important;
-    display: inline-block;
-    font-size: 1.125rem;
-    font-weight: 400;
-    padding: .75rem 1.25rem;
-    transition: all .15s, outline 0s, outline-offset 0s;
-    user-select: none
+  background: transparent !important;
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px var(--color-orange-300) inset;
+  color: var(--color-shade-900) !important;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: .75rem 1.25rem;
+  transition: all .15s, outline 0s, outline-offset 0s;
+  user-select: none
 }
 
 #account-settings .edit:hover,
 #account-settings .verify:hover,
 #account-settings .button-container .btn.btn-secondary:hover {
-    background: var(--color-orange-100) !important;
-    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
-    color: var(--color-shade-900) !important
+  background: var(--color-orange-100) !important;
+  box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+  color: var(--color-shade-900) !important
 }
 
 #account-settings .edit:focus,
 #account-settings .verify:focus,
 #account-settings .button-container .btn.btn-secondary:focus {
-    background: var(--color-orange-100) !important;
-    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
-    color: var(--color-orange-900) !important
+  background: var(--color-orange-100) !important;
+  box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+  color: var(--color-orange-900) !important
 }
 
 #account-settings .edit:active,
 #account-settings .verify:active,
 #account-settings .button-container .btn.btn-secondary:active {
-    background: var(--color-transparent-20) !important;
-    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
-    color: var(--color-shade-900) !important;
-    transition: none
+  background: var(--color-transparent-20) !important;
+  box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+  color: var(--color-shade-900) !important;
+  transition: none
 }
 
 #account-settings .edit:hover,
 #account-settings .verify:hover,
 #account-settings .button-container .btn.btn-secondary:hover {
-    background: var(--color-orange-100) !important;
-    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
-    color: var(--color-shade-900) !important
+  background: var(--color-orange-100) !important;
+  box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+  color: var(--color-shade-900) !important
 }
 
 #account-settings .edit:focus,
 #account-settings .verify:focus,
 #account-settings .button-container .btn.btn-secondary:focus {
-    background: var(--color-orange-100) !important;
-    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
-    color: var(--color-orange-900) !important
+  background: var(--color-orange-100) !important;
+  box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+  color: var(--color-orange-900) !important
 }
 
 #account-settings .edit:active,
 #account-settings .verify:active,
 #account-settings .button-container .btn.btn-secondary:active {
-    background: var(--color-transparent-20) !important;
-    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
-    color: var(--color-shade-900) !important;
-    transition: none
+  background: var(--color-transparent-20) !important;
+  box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+  color: var(--color-shade-900) !important;
+  transition: none
 }
 
 .notification {
-    flex: 1 1 100%
+  flex: 1 1 100%
 }
 
 .notification.error,
 .notification.notification-error {
-    background-color: transparent;
-    border: 1px solid var(--color-orange-500);
-    color: var(--color-shade-900)
+  background-color: transparent;
+  border: 1px solid var(--color-orange-500);
+  color: var(--color-shade-900)
 }
 
 .notification.notification-warning,
 .notification.warning {
-    background-color: transparent;
-    border: 1px solid var(--color-orange-300);
-    color: var(--color-shade-900)
+  background-color: transparent;
+  border: 1px solid var(--color-orange-300);
+  color: var(--color-shade-900)
 }
 
 .notification.notification-success,
 .notification.success {
-    background-color: transparent;
-    border: 1px solid var(--color-green-500);
-    color: var(--color-shade-900)
+  background-color: transparent;
+  border: 1px solid var(--color-green-500);
+  color: var(--color-shade-900)
 }
 
 .notification .fa,
 .notification .status {
-    display: none
+  display: none
 }
 
 .notification .msg,
 .notification .status {
-    font-size: var(--text-supporting)
+  font-size: var(--text-supporting)
 }
 
 #activity-history table,
 #reward-history table,
 .purchase-history-table {
-    font-feature-settings: 'pnum' 0, 'tnum' 1, 'kern' 1, 'liga' 1
+  font-feature-settings: 'pnum' 0, 'tnum' 1, 'kern' 1, 'liga' 1
 }
 
 #activity-history table tr[ng-show='rewards.length == 0'] td,
@@ -603,13 +603,13 @@ button.btn.btn-secondary[ng-click="doVerification()"]:active {
 .purchase-history-table tr[ng-show='rewards.length == 0'] td,
 .purchase-history-table tr[ng-show='orders.length == 0'] td span,
 .purchase-history-table span[ng-if='activity.points() < 0'] {
-    color: #999 !important
+  color: #999 !important
 }
 
 #activity-history table tbody:before,
 #reward-history table tbody:before,
 .purchase-history-table tbody:before {
-    content: ''
+  content: ''
 }
 
 #activity-history table td,
@@ -618,8 +618,8 @@ button.btn.btn-secondary[ng-click="doVerification()"]:active {
 #reward-history table th,
 .purchase-history-table td,
 .purchase-history-table th {
-    line-height: 1.25rem;
-    padding: .25rem 1rem
+  line-height: 1.25rem;
+  padding: .25rem 1rem
 }
 
 #activity-history table td:nth-last-child(1),
@@ -628,7 +628,7 @@ button.btn.btn-secondary[ng-click="doVerification()"]:active {
 #reward-history table th:nth-last-child(1),
 .purchase-history-table td:nth-last-child(1),
 .purchase-history-table th:nth-last-child(1) {
-    padding-right: 0
+  padding-right: 0
 }
 
 input[type=email],
@@ -665,16 +665,16 @@ dl.form dd select,
 #redeem #review dl.form.select dd select,
 #sign-up-v2 select,
 #redeem-v2 #review fieldset.form select {
-    -webkit-appearance: none;
-    background: unset;
-    background-color: var(--color-shade-100);
-    border: 1px solid var(--color-shade-500);
-    border-radius: 2px;
-    font-size: 16px;
-    height: 32px;
-    line-height: 30px;
-    margin: 0;
-    transition: all .15s
+  -webkit-appearance: none;
+  background: unset;
+  background-color: var(--color-shade-100);
+  border: 1px solid var(--color-shade-500);
+  border-radius: 2px;
+  font-size: 16px;
+  height: 32px;
+  line-height: 30px;
+  margin: 0;
+  transition: all .15s
 }
 
 input[type=email]:focus,
@@ -745,11 +745,11 @@ dl.form dd select:active,
 #sign-up-v2 select:active,
 #redeem-v2 #review fieldset.form select:focus,
 #redeem-v2 #review fieldset.form select:active {
-    background-color: var(--color-shade-100);
-    border: 1px solid var(--color-blue-700);
-    box-shadow: 0 0 0 1px var(--color-blue-700) inset;
-    outline: 0;
-    transition: none
+  background-color: var(--color-shade-100);
+  border: 1px solid var(--color-blue-700);
+  box-shadow: 0 0 0 1px var(--color-blue-700) inset;
+  outline: 0;
+  transition: none
 }
 
 input[type=email][disabled],
@@ -854,10 +854,10 @@ dl.form dd select[disabled]:active,
 #redeem-v2 #review fieldset.form select[disabled],
 #redeem-v2 #review fieldset.form select[disabled]:focus,
 #redeem-v2 #review fieldset.form select[disabled]:active {
-    background-color: var(--color-shade-100);
-    border: 1px solid var(--color-shade-500);
-    border-radius: 2px;
-    opacity: .3
+  background-color: var(--color-shade-100);
+  border: 1px solid var(--color-shade-500);
+  border-radius: 2px;
+  opacity: .3
 }
 
 input[type=email],
@@ -888,14 +888,14 @@ dl.form dd textarea,
 #redeem-v2 #review fieldset.form input[type=tel],
 #redeem-v2 #review fieldset.form input[type=text],
 #redeem-v2 #review fieldset.form input[type=url] {
-    color: var(--color-shade-900);
-    padding: .3125rem
+  color: var(--color-shade-900);
+  padding: .3125rem
 }
 
 dl.form dd textarea {
-    height: 4rem;
-    min-height: 4rem;
-    resize: vertical
+  height: 4rem;
+  min-height: 4rem;
+  resize: vertical
 }
 
 select,
