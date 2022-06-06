@@ -1,0 +1,1340 @@
+:root {
+    --color-shade-100: #FDFFFF;
+    --color-shade-200: #FAFBFB;
+    --color-shade-300: #F4F6F6;
+    --color-shade-400: #E4E5E6;
+    --color-shade-500: #97999A;
+    --color-shade-700: #5b5b5c;
+    --color-shade-900: #2D2D2E;
+    --color-orange-100: #FFF9F2;
+    --color-orange-200: #FFEDD4;
+    --color-orange-250: #ffce8a;
+    --color-orange-300: #FFC26F;
+    --color-orange-500: #eb9f42;
+    --color-orange-700: #c07825;
+    --color-orange-900: #ae6200;
+    --color-blue-100: #e0faff;
+    --color-blue-200: #cff6ff;
+    --color-blue-300: #a3e8f7;
+    --color-blue-400: #50c1e7;
+    --color-blue-500: #029ACB;
+    --color-blue-700: #007095;
+    --color-blue-900: #00445A;
+    --color-green-500: #D3F3AC;
+    --color-green-700: #466126;
+    --color-translucent-20: rgba(255, 255, 255, .2);
+    --color-transparent-07: rgba(0, 0, 0, .07);
+    --color-transparent-10: rgba(0, 0, 0, .1);
+    --color-transparent-20: rgba(0, 0, 0, .2);
+    --color-transparent-50: rgba(0, 0, 0, .5);
+    --color-translucent-nav: rgba(241, 243, 243, .86);
+    --color-translucent-subnav: rgba(249, 250, 250, .86);
+    --shadow-text: 0 1px 2px var(--color-transparent-20), 0 1px 3px var(--color-transparent-50);
+    --shadow-button: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10);
+    --shadow-buttonlight: 0 1px 3px var(--color-transparent-20), 0 3px 8px var(--color-transparent-10), 0 6px 14px var(--color-transparent-07);
+    --shadow-text-transparent: 0 1px 2px transparent, 0 1px 4px transparent;
+    --shadow-subnav: 0 6px 8px 0 rgba(0, 0, 0, .15), 0 10px 14px rgba(0, 0, 0, .06);
+    --space-buttons: .375rem;
+    --space-a: .5rem;
+    --space-b: 1rem;
+    --space-c: 1.5rem;
+    --space-d: 2.75rem;
+    --space-e: 3.5rem;
+    --text-nav: 1rem;
+    --text-subnav: .875rem;
+    --text-title: 1.75rem;
+    --text-header: .875rem;
+    --text-widgetheader: 1.5rem;
+    --text-tiermain: 1.875rem;
+    --text-hero: 2.125rem;
+    --text-bigparagraph: 1.125rem;
+    --text-paragraph: 1.125rem;
+    --text-supporting: 1rem;
+    --text-minor: .875rem;
+    --text-button: 1rem;
+    --text-linkblock: 1.5rem;
+    --text-copyright: .5625rem;
+    --height-nav: 3.625rem;
+    --height-subnav: 2.5rem;
+    --width-max-width: 100rem;
+    --width-nav-icon: 1.875rem;
+    --ratio-angle: 17%;
+    --angle-height: 160;
+    --angle-max-width: 1500;
+    --afterangle-min-padding-top: calc((var(--angle-height) * 1px) - (var(--angle-height) / var(--angle-max-width) * 100%));
+    --afterangle-extra-padding-top: calc(var(--angle-height) / var(--angle-max-width) * 60%);
+    --angle-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 60%);
+    --angle-padding-bottom-maximum: 5rem;
+    --angle-extra-padding-bottom: calc(var(--angle-height) / var(--angle-max-width) * 80%);
+    --timing-in: .15s;
+    --timing-out: .3s;
+    --z-nav: 90;
+    --z-subnav: 50;
+    --z-subnavmenu: 49;
+    --widget-offset: 20px;
+    --widget-bottom: 5px;
+    --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 3%, rgba(235, 159, 66, 0.91) 5%, rgba(235, 159, 66, 0.82) 8%, rgba(235, 159, 66, 0.7) 11%, rgba(235, 159, 66, 0.57) 15%, rgba(235, 159, 66, 0.43) 21%, rgba(235, 159, 66, 0.3) 29%, rgba(235, 159, 66, 0.18) 41%, rgba(235, 159, 66, 0.09) 56%, rgba(235, 159, 66, 0.02) 75%, rgba(235, 159, 66, 0) 100%)
+}
+
+@media (min-width: 900px) {
+     :root {
+        --space-buttons: .375rem;
+        --space-a: .625rem;
+        --space-b: 1.25rem;
+        --space-c: 2.5rem;
+        --space-d: 3.125rem;
+        --space-e: 3.75rem
+    }
+}
+
+@media (min-width: 900px) {
+     :root {
+        --text-nav: 1.125rem;
+        --text-subnav: 1rem;
+        --text-title: 2.5rem;
+        --text-header: 1rem;
+        --text-widgetheader: 1.5rem;
+        --text-tiermain: 2.25rem;
+        --text-hero: 2.5rem;
+        --text-bigparagraph: 1.25rem;
+        --text-paragraph: 1.125rem;
+        --text-supporting: 1rem;
+        --text-minor: .875rem;
+        --text-button: 1.125rem;
+        --text-linkblock: 1.875rem;
+        --text-copyright: .75rem
+    }
+}
+
+@media (min-width: 680px) {
+     :root {
+        --width-nav-icon: 1.5rem
+    }
+}
+
+@media (min-width: 900px) {
+     :root {
+        --height-nav: 5rem;
+        --height-subnav: 2.5rem;
+        --width-nav-icon: 1.875rem
+    }
+}
+
+@media (min-width: 900px) {
+     :root {
+        --hero-left-scrim: linear-gradient(to right, #eb9f42 0%, rgba(235, 159, 66, 0.98) 1.5%, rgba(235, 159, 66, 0.91) 2.5%, rgba(235, 159, 66, 0.82) 4%, rgba(235, 159, 66, 0.7) 5.5%, rgba(235, 159, 66, 0.57) 7.5%, rgba(235, 159, 66, 0.43) 10.5%, rgba(235, 159, 66, 0.3) 14.5%, rgba(235, 159, 66, 0.18) 20.5%, rgba(235, 159, 66, 0.09) 28%, rgba(235, 159, 66, 0.02) 37.5%, rgba(235, 159, 66, 0) 50%)
+    }
+}
+
+html,
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-feature-settings: 'pnum' 1, 'kern' 1, 'liga' 1;
+    font-size: 16px
+}
+
+body>.ng-scope {
+    padding: 20px
+}
+
+a,
+a:link,
+a:visited {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+*,
+*::after,
+*::after {
+    box-sizing: inherit;
+    font-family: "InterUIWeb", "Inter", BlinkMacSystemFont, system-ui, -apple-system, sans-serif
+}
+
+div[ui-view] {
+    position: relative
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid currentColor;
+    height: 0
+}
+
+.header.ct-header-color {
+    background-color: var(--color-orange-200) !important
+}
+
+.header.ct-header-color .ct-header-text-color {
+    color: var(--color-blue-900) !important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit
+}
+
+p,
+span {
+    font-size: 1em
+}
+
+.ct-points-color {
+    color: var(--color-orange-900) !important;
+    text-transform: none !important
+}
+
+.ct-link-color {
+    color: var(--color-blue-700) !important;
+    text-decoration: none !important
+}
+
+.ct-link-color:hover,
+.ct-link-color:focus {
+    color: var(--color-blue-500) !important
+}
+
+.ct-link-color:active {
+    color: var(--color-blue-900) !important
+}
+
+a,
+a:link,
+a:visited {
+    color: var(--color-blue-700);
+    text-decoration: none;
+    transition: color .15s, box-shadow .15s, background .15s
+}
+
+a:hover,
+a:link:hover,
+a:visited:hover {
+    color: var(--color-blue-500);
+    text-decoration: underline
+}
+
+a:active,
+a:link:active,
+a:visited:active {
+    color: var(--color-blue-900);
+    text-decoration: underline;
+    transition: none
+}
+
+a[disabled],
+a:link[disabled],
+a:visited[disabled] {
+    pointer-events: none
+}
+
+a:focus,
+a:link:focus,
+a:visited:focus {
+    outline: 2px solid var(--color-blue-700);
+    outline-offset: 2px
+}
+
+a:focus:not(:focus-visible),
+a:link:focus:not(:focus-visible),
+a:visited:focus:not(:focus-visible) {
+    outline: 0
+}
+
+a:focus-visible,
+a:link:focus-visible,
+a:visited:focus-visible {
+    outline: 2px solid var(--color-blue-700);
+    outline-offset: 2px
+}
+
+button:focus {
+    outline: 2px solid var(--color-blue-700);
+    outline-offset: 2px
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0
+}
+
+button:focus-visible {
+    outline: 2px solid var(--color-blue-700);
+    outline-offset: 2px
+}
+
+a.btn,
+button,
+.btn,
+.btn.btn-danger,
+a.btn.btn-danger,
+.btn.btn-secondary,
+a.btn.btn-secondary,
+#social-connect-widget button.connect,
+#survey .nav-btns .prev-btn,
+button.btn,
+.btn.btn-small,
+a.btn.btn-small,
+#survey .nav-btns .prev-btn,
+#registration-v2 .container .content .login button,
+#account-overview-v2 a.logout-link,
+#sign-up-v2 .sign-up-button,
+#sign-up-v2 .log-in-button,
+#sign-up-v2 .back-to-login-button,
+.btn.btn-email,
+a.btn.btn-email {
+    background-color: var(--color-shade-400) !important;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px var(--color-shade-400) inset, var(--shadow-button);
+    color: var(--color-shade-900) !important;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.125rem;
+    font-weight: 400;
+    height: auto;
+    line-height: 1.125rem;
+    margin: 0;
+    outline: 0 !important;
+    padding: .75rem 1.25rem;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .15s, outline 0s, outline-offset 0s;
+    user-select: none;
+    width: auto
+}
+
+a.btn[disabled],
+button[disabled],
+.btn[disabled],
+.btn.btn-danger[disabled],
+a.btn.btn-danger[disabled],
+.btn.btn-secondary[disabled],
+a.btn.btn-secondary[disabled],
+#social-connect-widget button.connect[disabled],
+#survey .nav-btns .prev-btn[disabled],
+button.btn[disabled],
+.btn.btn-small[disabled],
+a.btn.btn-small[disabled],
+#survey .nav-btns .prev-btn[disabled],
+#registration-v2 .container .content .login button[disabled],
+#account-overview-v2 a.logout-link[disabled],
+#sign-up-v2 .sign-up-button[disabled],
+#sign-up-v2 .log-in-button[disabled],
+#sign-up-v2 .back-to-login-button[disabled],
+.btn.btn-email[disabled],
+a.btn.btn-email[disabled] {
+    pointer-events: none
+}
+
+a.btn:hover,
+a.btn:focus,
+button:hover,
+button:focus,
+.btn:hover,
+.btn:focus,
+.btn.btn-danger:hover,
+.btn.btn-danger:focus,
+a.btn.btn-danger:hover,
+a.btn.btn-danger:focus,
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus,
+a.btn.btn-secondary:hover,
+a.btn.btn-secondary:focus,
+#social-connect-widget button.connect:hover,
+#social-connect-widget button.connect:focus,
+#survey .nav-btns .prev-btn:hover,
+#survey .nav-btns .prev-btn:focus,
+button.btn:hover,
+button.btn:focus,
+.btn.btn-small:hover,
+.btn.btn-small:focus,
+a.btn.btn-small:hover,
+a.btn.btn-small:focus,
+#survey .nav-btns .prev-btn:hover,
+#survey .nav-btns .prev-btn:focus,
+#registration-v2 .container .content .login button:hover,
+#registration-v2 .container .content .login button:focus,
+#account-overview-v2 a.logout-link:hover,
+#account-overview-v2 a.logout-link:focus,
+#sign-up-v2 .sign-up-button:hover,
+#sign-up-v2 .sign-up-button:focus,
+#sign-up-v2 .log-in-button:hover,
+#sign-up-v2 .log-in-button:focus,
+#sign-up-v2 .back-to-login-button:hover,
+#sign-up-v2 .back-to-login-button:focus,
+.btn.btn-email:hover,
+.btn.btn-email:focus,
+a.btn.btn-email:hover,
+a.btn.btn-email:focus {
+    background-color: var(--color-blue-200) !important;
+    box-shadow: 0 0 0 2px var(--color-blue-200) inset, var(--shadow-button);
+    color: var(--color-shade-900) !important;
+    text-decoration: none
+}
+
+a.btn:focus,
+button:focus,
+.btn:focus,
+.btn.btn-danger:focus,
+a.btn.btn-danger:focus,
+.btn.btn-secondary:focus,
+a.btn.btn-secondary:focus,
+#social-connect-widget button.connect:focus,
+#survey .nav-btns .prev-btn:focus,
+button.btn:focus,
+.btn.btn-small:focus,
+a.btn.btn-small:focus,
+#survey .nav-btns .prev-btn:focus,
+#registration-v2 .container .content .login button:focus,
+#account-overview-v2 a.logout-link:focus,
+#sign-up-v2 .sign-up-button:focus,
+#sign-up-v2 .log-in-button:focus,
+#sign-up-v2 .back-to-login-button:focus,
+.btn.btn-email:focus,
+a.btn.btn-email:focus {
+    box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
+    outline: 0
+}
+
+a.btn:active,
+button:active,
+.btn:active,
+.btn.btn-danger:active,
+a.btn.btn-danger:active,
+.btn.btn-secondary:active,
+a.btn.btn-secondary:active,
+#social-connect-widget button.connect:active,
+#survey .nav-btns .prev-btn:active,
+button.btn:active,
+.btn.btn-small:active,
+a.btn.btn-small:active,
+#survey .nav-btns .prev-btn:active,
+#registration-v2 .container .content .login button:active,
+#account-overview-v2 a.logout-link:active,
+#sign-up-v2 .sign-up-button:active,
+#sign-up-v2 .log-in-button:active,
+#sign-up-v2 .back-to-login-button:active,
+.btn.btn-email:active,
+a.btn.btn-email:active {
+    background-color: var(--color-blue-500) !important;
+    box-shadow: 0 0 0 2px var(--color-blue-500) inset, var(--shadow-button);
+    color: var(--color-shade-900) !important;
+    text-decoration: none;
+    transition: none
+}
+
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button),
+#activity-history .btn.show-more,
+#survey .nav-btns .next-btn,
+#upload-receipt .receipt-preview label,
+#upload-receipt-v2 .receipt-preview label,
+button.btn.btn-secondary[ng-click="doVerification()"] {
+    background-color: var(--color-orange-300) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-button) !important;
+    color: var(--color-shade-900) !important;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0
+}
+
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button)[disabled],
+#activity-history .btn.show-more[disabled],
+#survey .nav-btns .next-btn[disabled],
+#upload-receipt .receipt-preview label[disabled],
+#upload-receipt-v2 .receipt-preview label[disabled],
+button.btn.btn-secondary[ng-click="doVerification()"][disabled] {
+    box-shadow: 0 0 0 2px var(--color-orange-300) inset, var(--shadow-text-transparent) !important
+}
+
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):hover,
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):focus,
+#activity-history .btn.show-more:hover,
+#activity-history .btn.show-more:focus,
+#survey .nav-btns .next-btn:hover,
+#survey .nav-btns .next-btn:focus,
+#upload-receipt .receipt-preview label:hover,
+#upload-receipt .receipt-preview label:focus,
+#upload-receipt-v2 .receipt-preview label:hover,
+#upload-receipt-v2 .receipt-preview label:focus,
+button.btn.btn-secondary[ng-click="doVerification()"]:hover,
+button.btn.btn-secondary[ng-click="doVerification()"]:focus {
+    background-color: var(--color-orange-250) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-250) inset, var(--shadow-button) !important;
+    color: var(--color-shade-900) !important
+}
+
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):focus,
+#activity-history .btn.show-more:focus,
+#survey .nav-btns .next-btn:focus,
+#upload-receipt .receipt-preview label:focus,
+#upload-receipt-v2 .receipt-preview label:focus,
+button.btn.btn-secondary[ng-click="doVerification()"]:focus {
+    box-shadow: 0 0 0 2px var(--color-orange-700) inset, var(--shadow-button) !important
+}
+
+.ct-button:not([ng-click="logIn()"]):not(.sign-up-button):not(.log-in-button):not(.back-to-login-button):active,
+#activity-history .btn.show-more:active,
+#survey .nav-btns .next-btn:active,
+#upload-receipt .receipt-preview label:active,
+#upload-receipt-v2 .receipt-preview label:active,
+button.btn.btn-secondary[ng-click="doVerification()"]:active {
+    background-color: var(--color-orange-500) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-500) inset, var(--shadow-button) !important;
+    color: var(--color-shade-900) !important
+}
+
+#account-settings .edit,
+#account-settings .verify,
+#account-settings .button-container .btn.btn-secondary {
+    background: transparent !important;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px var(--color-orange-300) inset;
+    color: var(--color-shade-900) !important;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: .75rem 1.25rem;
+    transition: all .15s, outline 0s, outline-offset 0s;
+    user-select: none
+}
+
+#account-settings .edit:hover,
+#account-settings .verify:hover,
+#account-settings .button-container .btn.btn-secondary:hover {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+    color: var(--color-shade-900) !important
+}
+
+#account-settings .edit:focus,
+#account-settings .verify:focus,
+#account-settings .button-container .btn.btn-secondary:focus {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+    color: var(--color-orange-900) !important
+}
+
+#account-settings .edit:active,
+#account-settings .verify:active,
+#account-settings .button-container .btn.btn-secondary:active {
+    background: var(--color-transparent-20) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+    color: var(--color-shade-900) !important;
+    transition: none
+}
+
+#account-settings .edit:hover,
+#account-settings .verify:hover,
+#account-settings .button-container .btn.btn-secondary:hover {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+    color: var(--color-shade-900) !important
+}
+
+#account-settings .edit:focus,
+#account-settings .verify:focus,
+#account-settings .button-container .btn.btn-secondary:focus {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+    color: var(--color-orange-900) !important
+}
+
+#account-settings .edit:active,
+#account-settings .verify:active,
+#account-settings .button-container .btn.btn-secondary:active {
+    background: var(--color-transparent-20) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+    color: var(--color-shade-900) !important;
+    transition: none
+}
+
+.notification {
+    flex: 1 1 100%
+}
+
+.notification.error,
+.notification.notification-error {
+    background-color: transparent;
+    border: 1px solid var(--color-orange-500);
+    color: var(--color-shade-900)
+}
+
+.notification.notification-warning,
+.notification.warning {
+    background-color: transparent;
+    border: 1px solid var(--color-orange-300);
+    color: var(--color-shade-900)
+}
+
+.notification.notification-success,
+.notification.success {
+    background-color: transparent;
+    border: 1px solid var(--color-green-500);
+    color: var(--color-shade-900)
+}
+
+.notification .fa,
+.notification .status {
+    display: none
+}
+
+.notification .msg,
+.notification .status {
+    font-size: var(--text-supporting)
+}
+
+#activity-history table,
+#reward-history table,
+.purchase-history-table {
+    font-feature-settings: 'pnum' 0, 'tnum' 1, 'kern' 1, 'liga' 1
+}
+
+#activity-history table tr[ng-show='rewards.length == 0'] td,
+#activity-history table tr[ng-show='orders.length == 0'] td span,
+#activity-history table span[ng-if='activity.points() < 0'],
+#reward-history table tr[ng-show='rewards.length == 0'] td,
+#reward-history table tr[ng-show='orders.length == 0'] td span,
+#reward-history table span[ng-if='activity.points() < 0'],
+.purchase-history-table tr[ng-show='rewards.length == 0'] td,
+.purchase-history-table tr[ng-show='orders.length == 0'] td span,
+.purchase-history-table span[ng-if='activity.points() < 0'] {
+    color: #999 !important
+}
+
+#activity-history table tbody:before,
+#reward-history table tbody:before,
+.purchase-history-table tbody:before {
+    content: ''
+}
+
+#activity-history table td,
+#activity-history table th,
+#reward-history table td,
+#reward-history table th,
+.purchase-history-table td,
+.purchase-history-table th {
+    line-height: 1.25rem;
+    padding: .25rem 1rem
+}
+
+#activity-history table td:nth-last-child(1),
+#activity-history table th:nth-last-child(1),
+#reward-history table td:nth-last-child(1),
+#reward-history table th:nth-last-child(1),
+.purchase-history-table td:nth-last-child(1),
+.purchase-history-table th:nth-last-child(1) {
+    padding-right: 0
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+.account-settings .input-group input,
+#check-in .search-wrapper input.venue-search,
+dl.form dd input[type=email],
+dl.form dd input[type=number],
+dl.form dd input[type=password],
+dl.form dd input[type=tel],
+dl.form dd input[type=text],
+#survey-v3 .question-container input[type=text],
+#sign-up-v2 input[type=email],
+#sign-up-v2 input[type=password],
+#sign-up-v2 input[type=text],
+dl.form dd textarea,
+.claim-purchase input[type=number],
+.claim-purchase input[type=text],
+#redeem-v2 input[type=email],
+#redeem-v2 #review fieldset.form input[type=date],
+#redeem-v2 #review fieldset.form input[type=email],
+#redeem-v2 #review fieldset.form input[type=number],
+#redeem-v2 #review fieldset.form input[type=password],
+#redeem-v2 #review fieldset.form input[type=phone],
+#redeem-v2 #review fieldset.form input[type=tel],
+#redeem-v2 #review fieldset.form input[type=text],
+#redeem-v2 #review fieldset.form input[type=url],
+select,
+dl.form dd select,
+.account-settings .input-group select,
+#redeem #review dl.form.select dd select,
+#sign-up-v2 select,
+#redeem-v2 #review fieldset.form select {
+    -webkit-appearance: none;
+    background: unset;
+    background-color: var(--color-shade-100);
+    border: 1px solid var(--color-shade-500);
+    border-radius: 2px;
+    font-size: 16px;
+    height: 32px;
+    line-height: 30px;
+    margin: 0;
+    transition: all .15s
+}
+
+input[type=email]:focus,
+input[type=email]:active,
+input[type=number]:focus,
+input[type=number]:active,
+input[type=password]:focus,
+input[type=password]:active,
+input[type=tel]:focus,
+input[type=tel]:active,
+input[type=text]:focus,
+input[type=text]:active,
+.account-settings .input-group input:focus,
+.account-settings .input-group input:active,
+#check-in .search-wrapper input.venue-search:focus,
+#check-in .search-wrapper input.venue-search:active,
+dl.form dd input[type=email]:focus,
+dl.form dd input[type=email]:active,
+dl.form dd input[type=number]:focus,
+dl.form dd input[type=number]:active,
+dl.form dd input[type=password]:focus,
+dl.form dd input[type=password]:active,
+dl.form dd input[type=tel]:focus,
+dl.form dd input[type=tel]:active,
+dl.form dd input[type=text]:focus,
+dl.form dd input[type=text]:active,
+#survey-v3 .question-container input[type=text]:focus,
+#survey-v3 .question-container input[type=text]:active,
+#sign-up-v2 input[type=email]:focus,
+#sign-up-v2 input[type=email]:active,
+#sign-up-v2 input[type=password]:focus,
+#sign-up-v2 input[type=password]:active,
+#sign-up-v2 input[type=text]:focus,
+#sign-up-v2 input[type=text]:active,
+dl.form dd textarea:focus,
+dl.form dd textarea:active,
+.claim-purchase input[type=number]:focus,
+.claim-purchase input[type=number]:active,
+.claim-purchase input[type=text]:focus,
+.claim-purchase input[type=text]:active,
+#redeem-v2 input[type=email]:focus,
+#redeem-v2 input[type=email]:active,
+#redeem-v2 #review fieldset.form input[type=date]:focus,
+#redeem-v2 #review fieldset.form input[type=date]:active,
+#redeem-v2 #review fieldset.form input[type=email]:focus,
+#redeem-v2 #review fieldset.form input[type=email]:active,
+#redeem-v2 #review fieldset.form input[type=number]:focus,
+#redeem-v2 #review fieldset.form input[type=number]:active,
+#redeem-v2 #review fieldset.form input[type=password]:focus,
+#redeem-v2 #review fieldset.form input[type=password]:active,
+#redeem-v2 #review fieldset.form input[type=phone]:focus,
+#redeem-v2 #review fieldset.form input[type=phone]:active,
+#redeem-v2 #review fieldset.form input[type=tel]:focus,
+#redeem-v2 #review fieldset.form input[type=tel]:active,
+#redeem-v2 #review fieldset.form input[type=text]:focus,
+#redeem-v2 #review fieldset.form input[type=text]:active,
+#redeem-v2 #review fieldset.form input[type=url]:focus,
+#redeem-v2 #review fieldset.form input[type=url]:active,
+select:focus,
+select:active,
+dl.form dd select:focus,
+dl.form dd select:active,
+.account-settings .input-group select:focus,
+.account-settings .input-group select:active,
+#redeem #review dl.form.select dd select:focus,
+#redeem #review dl.form.select dd select:active,
+#sign-up-v2 select:focus,
+#sign-up-v2 select:active,
+#redeem-v2 #review fieldset.form select:focus,
+#redeem-v2 #review fieldset.form select:active {
+    background-color: var(--color-shade-100);
+    border: 1px solid var(--color-blue-700);
+    box-shadow: 0 0 0 1px var(--color-blue-700) inset;
+    outline: 0;
+    transition: none
+}
+
+input[type=email][disabled],
+input[type=email][disabled]:focus,
+input[type=email][disabled]:active,
+input[type=number][disabled],
+input[type=number][disabled]:focus,
+input[type=number][disabled]:active,
+input[type=password][disabled],
+input[type=password][disabled]:focus,
+input[type=password][disabled]:active,
+input[type=tel][disabled],
+input[type=tel][disabled]:focus,
+input[type=tel][disabled]:active,
+input[type=text][disabled],
+input[type=text][disabled]:focus,
+input[type=text][disabled]:active,
+.account-settings .input-group input[disabled],
+.account-settings .input-group input[disabled]:focus,
+.account-settings .input-group input[disabled]:active,
+#check-in .search-wrapper input.venue-search[disabled],
+#check-in .search-wrapper input.venue-search[disabled]:focus,
+#check-in .search-wrapper input.venue-search[disabled]:active,
+dl.form dd input[type=email][disabled],
+dl.form dd input[type=email][disabled]:focus,
+dl.form dd input[type=email][disabled]:active,
+dl.form dd input[type=number][disabled],
+dl.form dd input[type=number][disabled]:focus,
+dl.form dd input[type=number][disabled]:active,
+dl.form dd input[type=password][disabled],
+dl.form dd input[type=password][disabled]:focus,
+dl.form dd input[type=password][disabled]:active,
+dl.form dd input[type=tel][disabled],
+dl.form dd input[type=tel][disabled]:focus,
+dl.form dd input[type=tel][disabled]:active,
+dl.form dd input[type=text][disabled],
+dl.form dd input[type=text][disabled]:focus,
+dl.form dd input[type=text][disabled]:active,
+#survey-v3 .question-container input[type=text][disabled],
+#survey-v3 .question-container input[type=text][disabled]:focus,
+#survey-v3 .question-container input[type=text][disabled]:active,
+#sign-up-v2 input[type=email][disabled],
+#sign-up-v2 input[type=email][disabled]:focus,
+#sign-up-v2 input[type=email][disabled]:active,
+#sign-up-v2 input[type=password][disabled],
+#sign-up-v2 input[type=password][disabled]:focus,
+#sign-up-v2 input[type=password][disabled]:active,
+#sign-up-v2 input[type=text][disabled],
+#sign-up-v2 input[type=text][disabled]:focus,
+#sign-up-v2 input[type=text][disabled]:active,
+dl.form dd textarea[disabled],
+dl.form dd textarea[disabled]:focus,
+dl.form dd textarea[disabled]:active,
+.claim-purchase input[type=number][disabled],
+.claim-purchase input[type=number][disabled]:focus,
+.claim-purchase input[type=number][disabled]:active,
+.claim-purchase input[type=text][disabled],
+.claim-purchase input[type=text][disabled]:focus,
+.claim-purchase input[type=text][disabled]:active,
+#redeem-v2 input[type=email][disabled],
+#redeem-v2 input[type=email][disabled]:focus,
+#redeem-v2 input[type=email][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=date][disabled],
+#redeem-v2 #review fieldset.form input[type=date][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=date][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=email][disabled],
+#redeem-v2 #review fieldset.form input[type=email][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=email][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=number][disabled],
+#redeem-v2 #review fieldset.form input[type=number][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=number][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=password][disabled],
+#redeem-v2 #review fieldset.form input[type=password][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=password][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=phone][disabled],
+#redeem-v2 #review fieldset.form input[type=phone][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=phone][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=tel][disabled],
+#redeem-v2 #review fieldset.form input[type=tel][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=tel][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=text][disabled],
+#redeem-v2 #review fieldset.form input[type=text][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=text][disabled]:active,
+#redeem-v2 #review fieldset.form input[type=url][disabled],
+#redeem-v2 #review fieldset.form input[type=url][disabled]:focus,
+#redeem-v2 #review fieldset.form input[type=url][disabled]:active,
+select[disabled],
+select[disabled]:focus,
+select[disabled]:active,
+dl.form dd select[disabled],
+dl.form dd select[disabled]:focus,
+dl.form dd select[disabled]:active,
+.account-settings .input-group select[disabled],
+.account-settings .input-group select[disabled]:focus,
+.account-settings .input-group select[disabled]:active,
+#redeem #review dl.form.select dd select[disabled],
+#redeem #review dl.form.select dd select[disabled]:focus,
+#redeem #review dl.form.select dd select[disabled]:active,
+#sign-up-v2 select[disabled],
+#sign-up-v2 select[disabled]:focus,
+#sign-up-v2 select[disabled]:active,
+#redeem-v2 #review fieldset.form select[disabled],
+#redeem-v2 #review fieldset.form select[disabled]:focus,
+#redeem-v2 #review fieldset.form select[disabled]:active {
+    background-color: var(--color-shade-100);
+    border: 1px solid var(--color-shade-500);
+    border-radius: 2px;
+    opacity: .3
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+.account-settings .input-group input,
+#check-in .search-wrapper input.venue-search,
+dl.form dd input[type=email],
+dl.form dd input[type=number],
+dl.form dd input[type=password],
+dl.form dd input[type=tel],
+dl.form dd input[type=text],
+#survey-v3 .question-container input[type=text],
+#sign-up-v2 input[type=email],
+#sign-up-v2 input[type=password],
+#sign-up-v2 input[type=text],
+dl.form dd textarea,
+.claim-purchase input[type=number],
+.claim-purchase input[type=text],
+#redeem-v2 input[type=email],
+#redeem-v2 #review fieldset.form input[type=date],
+#redeem-v2 #review fieldset.form input[type=email],
+#redeem-v2 #review fieldset.form input[type=number],
+#redeem-v2 #review fieldset.form input[type=password],
+#redeem-v2 #review fieldset.form input[type=phone],
+#redeem-v2 #review fieldset.form input[type=tel],
+#redeem-v2 #review fieldset.form input[type=text],
+#redeem-v2 #review fieldset.form input[type=url] {
+    color: var(--color-shade-900);
+    padding: .3125rem
+}
+
+dl.form dd textarea {
+    height: 4rem;
+    min-height: 4rem;
+    resize: vertical
+}
+
+select,
+dl.form dd select,
+.account-settings .input-group select,
+#redeem #review dl.form.select dd select,
+#sign-up-v2 select,
+#redeem-v2 #review fieldset.form select {
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23029acb' fill='none' stroke-width='2' d='M1 1l5 4 5-4'/%3E%3C/svg%3E");
+    background-position: right 5px top 50%;
+    background-repeat: no-repeat;
+    padding: 0 1.4375rem 0 .3125rem
+}
+
+select::-ms-expand,
+dl.form dd select::-ms-expand,
+.account-settings .input-group select::-ms-expand,
+#redeem #review dl.form.select dd select::-ms-expand,
+#sign-up-v2 select::-ms-expand,
+#redeem-v2 #review fieldset.form select::-ms-expand {
+    display: none
+}
+
+ui-view {
+    display: block
+}
+
+.widget .container {
+    padding: 6.875rem 1.25rem 1.25rem
+}
+
+#dynamic-form .submit-container {
+    display: flex;
+    float: none;
+    justify-content: flex-end;
+    padding: var(--space-c) 0 0
+}
+
+@keyframes spin-step {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+html,
+body {
+    -ms-overflow-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    overflow-x: hidden
+}
+
+.widget .header {
+    display: none
+}
+
+.widget .container {
+    padding: 0
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+#registration-v2 .container .content {
+    align-items: cener;
+    background-color: transparent;
+    display: flex;
+    float: none;
+    justify-content: flex-start;
+    padding: 0;
+    width: 100%
+}
+
+#registration-v2 .container .content .heading,
+#registration-v2 .container .content .description {
+    display: none
+}
+
+#registration-v2 .container .content button.sign-up {
+    width: auto
+}
+
+#registration-v2 .container .content .login {
+    display: inline-block;
+    font-size: 0;
+    margin: 0
+}
+
+#registration-v2 .container .content .login span {
+    display: none
+}
+
+#registration-v2 .container .content .login button {
+    background: transparent !important;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px var(--color-orange-300) inset;
+    color: var(--color-shade-900) !important;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: .75rem 1.25rem;
+    transition: all .15s, outline 0s, outline-offset 0s;
+    user-select: none
+}
+
+#registration-v2 .container .content .login button:hover {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+    color: var(--color-shade-900) !important
+}
+
+#registration-v2 .container .content .login button:focus {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+    color: var(--color-orange-900) !important
+}
+
+#registration-v2 .container .content .login button:active {
+    background: var(--color-transparent-20) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+    color: var(--color-shade-900) !important;
+    transition: none
+}
+
+@media (min-width: 200px) {
+    #account-overview-v2 .header {
+        display: none
+    }
+    #account-overview-v2 .progress-bar-container {
+        padding: 0
+    }
+}
+
+#account-overview-v2 .container .header,
+#account-overview-v2 .container .user-container,
+#account-overview-v2 .container .lifetime-points,
+#account-overview-v2 .container ct-progress-bar,
+#account-overview-v2 .container .fan-level-progress-details {
+    display: none
+}
+
+#account-overview-v2 .container .logout-link-container {
+    display: flex;
+    padding: 0;
+    text-align: left
+}
+
+#account-overview-v2 .container .logout-link-container .logout-link {
+    background: transparent !important;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px var(--color-orange-300) inset;
+    color: var(--color-shade-900) !important;
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: .75rem 1.25rem;
+    transition: all .15s, outline 0s, outline-offset 0s;
+    user-select: none;
+    float: none;
+    margin-left: var(--space-a)
+}
+
+#account-overview-v2 .container .logout-link-container .logout-link:hover {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-orange-250) inset;
+    color: var(--color-shade-900) !important
+}
+
+#account-overview-v2 .container .logout-link-container .logout-link:focus {
+    background: var(--color-orange-100) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-700) inset;
+    color: var(--color-orange-900) !important
+}
+
+#account-overview-v2 .container .logout-link-container .logout-link:active {
+    background: var(--color-transparent-20) !important;
+    box-shadow: 0 0 0 2px var(--color-shade-900) inset;
+    color: var(--color-shade-900) !important;
+    transition: none
+}
+
+body {
+    color: #3f4f5c;
+    font-family: "Foco";
+}
+
+
+/* ***************** Additional CSS ***************** */
+
+
+/* Activity List */
+
+#activity-list-v2 {
+    font-family: "Brown", sans-serif;
+}
+
+#activity-list-v2 ul .activity button.title span {
+    color: #fb48c4 !important;
+}
+
+#activity-list-v2 ul .activity:hover button.title span,
+#activity-list-v2 ul .activity:focus button.title span {
+    color: #6e6e6e !important;
+}
+
+#activity-list-v2 ul .activity .info-container .description {
+    color: #4a4a4a !important;
+}
+
+#activity-list-v2 ul .point-value {
+    background: #fb48c4 !important;
+    box-shadow: none;
+    color: #fff !important;
+}
+
+#activity-list-v2 ul .activity.locked .points-container .ct-points-color {
+    color: #fff !important;
+}
+
+
+/* Rewards List */
+
+#reward-list-v2 .rewards .reward .content .title,
+#reward-list-v2 .rewards .reward:nth-child(n) .content .title {
+    color: #fb48c4 !important;
+}
+
+#reward-list-v2 .rewards .reward .content a:hover .title,
+#reward-list-v2 .rewards .reward .content a:focus .title,
+#reward-list-v2 .rewards .reward:nth-child(n) .content a:hover .title,
+#reward-list-v2 .rewards .reward:nth-child(n) .content a:focus .title {
+    color: #6e6e6e !important;
+}
+
+#reward-list-v2 .rewards .reward .content .row p.points.ct-points-color,
+#reward-list-v2 .rewards .reward:nth-child(n) .content .row p.points.ct-points-color {
+    background-color: #fb48c4 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+#reward-list-v2 .rewards .reward.reward-not-enough-points .content .row p.points.ct-points-color,
+#reward-list-v2 .rewards .reward.reward-not-enough-points:nth-child(n) .content .row p.points.ct-points-color,
+#reward-list-v2 .rewards .reward:nth-child(n).reward-not-enough-points .content .row p.points.ct-points-color,
+#reward-list-v2 .rewards .reward:nth-child(n).reward-not-enough-points:nth-child(n) .content .row p.points.ct-points-color {
+    background-color: #fb48c4 !important;
+}
+
+
+/* Account Overview */
+
+#account-overview-two-v2 {
+    background-color: white;
+    font-family: "Brown", sans-serif !important;
+    font-size: 1.6rem;
+    color: #4a4a4a !important;
+    line-height: 1.4375;
+    letter-spacing: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#account-overview-two-v2 .title {
+    color: #000;
+}
+
+#account-overview-two-v2 .user-info {
+    width: 80px;
+    background-image: url(data:image/jpeg;base64,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);
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#account-overview-two-v2 .profile-pic {
+    display: none;
+}
+
+#account-overview-two-v2 .ct-points-color {
+    font-size: 1.8rem;
+    color: #fb48c4 !important;
+    letter-spacing: -.011rem;
+    font-family: "Brown", sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+#account-overview-two-v2 .description {
+    font-family: "Brown", sans-serif !important;
+}
+
+#account-overview-two-v2 .logout-link-container {
+    display: none;
+}
+
+#account-overview-two-v2 .profile-info .tier .icon {
+    display: none;
+}
+
+#account-overview-two-v2 .info-toggle {
+    display: none;
+}
+
+
+/* Activity and Reward History */
+
+#activity-history-v2 {
+    color: #4a4a4a;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#activity-history-v2 table th,
+#activity-history-v2 .activity-history th,
+#activity-history-v2 .redemption-history th,
+#activity-history-v2 .purchase-history-table th,
+#reward-history-v2 table th,
+#reward-history-v2 .activity-history th,
+#reward-history-v2 .redemption-history th,
+#reward-history-v2 .purchase-history-table th,
+#purchase-history-v2 table th,
+#purchase-history-v2 .activity-history th,
+#purchase-history-v2 .redemption-history th,
+#purchase-history-v2 .purchase-history-table th {
+    color: #4a4a4a !important;
+}
+
+#activity-history-v2 table td,
+#activity-history-v2 .activity-history td,
+#activity-history-v2 .redemption-history td,
+#activity-history-v2 .purchase-history-table td,
+#reward-history-v2 table td,
+#reward-history-v2 .activity-history td,
+#reward-history-v2 .redemption-history td,
+#reward-history-v2 .purchase-history-table td,
+#purchase-history-v2 table td,
+#purchase-history-v2 .activity-history td,
+#purchase-history-v2 .redemption-history td,
+#purchase-history-v2 .purchase-history-table td {
+    color: #4a4a4a !important;
+}
+
+#activity-history-v2 table td.points,
+#activity-history-v2 .activity-history td.points,
+#activity-history-v2 .redemption-history td.points,
+#activity-history-v2 .purchase-history-table td.points,
+#reward-history-v2 table td.points,
+#reward-history-v2 .activity-history td.points,
+#reward-history-v2 .redemption-history td.points,
+#reward-history-v2 .purchase-history-table td.points,
+#purchase-history-v2 table td.points,
+#purchase-history-v2 .activity-history td.points,
+#purchase-history-v2 .redemption-history td.points,
+#purchase-history-v2 .purchase-history-table td.points {
+    color: #fb48c4 !important;
+}
+
+#activity-history-v2 .ct-points-color {
+    color: #fb48c4 !important;
+}
+
+
+/* Reward History */
+
+#reward-history-v2 {
+    color: #fff;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* Account Settings */
+
+#account-settings {
+    color: #fff !important;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#account-settings .primary-settings button.edit {
+    color: #fff !important;
+    background-color: #c31010 !important;
+    box-shadow: none;
+}
+
+#account-settings .secondary-settings button.edit {
+    color: #fff !important;
+    background-color: #c31010 !important;
+    box-shadow: none;
+    left: 175px !important;
+    bottom: 37px;
+}
+
+
+/* Fonts */
+
+body {
+    background-color: white;
+    font-family: "Brown", sans-serif;
+    font-size: 1.6rem;
+    color: #4a4a4a;
+    line-height: 1.4375;
+    letter-spacing: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #fb48c4;
+    margin-bottom: 2rem;
+    letter-spacing: -.011rem;
+    font-family: "Brown", sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.2rem;
+    letter-spacing: 0.116rem;
+    font-family: "Brown", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
