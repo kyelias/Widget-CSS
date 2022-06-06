@@ -1112,7 +1112,7 @@ body {
 #account-overview-two-v2 .user-info {
     clip-path: circle();
     width: 80px;
-    background-image: url(https://kyelias.github.io/Widget-CSS/image%20(1).png);
+    background-image: url("https://kyelias.github.io/Widget-CSS/image%20(1).png");
     height: 80px;
     background-repeat: no-repeat;
     background-size: contain;
