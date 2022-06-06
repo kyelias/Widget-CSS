@@ -8,10 +8,10 @@
 	  --color-shade-900: #2D2D2E;
 	  --custom-se-color-activefiller: #50c1e7;
 		--custom-se-color-activeborder: #0D0F1E;
-		--custom-se-color-passiveborder: #B3261B;
+		--custom-se-color-passiveborder: #48C6D9;
 	  --custom-se-color-CTA: #0D0F1E;
 		--custom-se-color-activefont: #0D0F1E;
-		--custom-se-color-passivefont: #B3261B;
+		--custom-se-color-passivefont: #48C6D9;
 	  --color-orange-200: #FFEDD4;
 	  --color-orange-500: #eb9f42;
 	  --color-orange-700: #c07825;
@@ -806,7 +806,7 @@
 	}
 
 	#activity-list-v2 ul .activity .lock-info i, #activity-list-v2 ul .activity .countdown i {
-	  margin: 0 0 0 -20px;
+	  margin: 0 0 0 -20px;B
 	  position: absolute
 	}
 
