@@ -883,18 +883,6 @@ dl.form dd textarea {
   resize: vertical
 }
 
-select,
-dl.form dd select,
-.account-settings .input-group select,
-#redeem #review dl.form.select dd select,
-#sign-up-v2 select,
-#redeem-v2 #review fieldset.form select {
-  background-image: url("data:image/svg+xml,%3Csvg width='12' height='7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23029acb' fill='none' stroke-width='2' d='M1 1l5 4 5-4'/%3E%3C/svg%3E");
-  background-position: right 5px top 50%;
-  background-repeat: no-repeat;
-  padding: 0 1.4375rem 0 .3125rem
-}
-
 select::-ms-expand,
 dl.form dd select::-ms-expand,
 .account-settings .input-group select::-ms-expand,
