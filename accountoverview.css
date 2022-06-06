@@ -1168,7 +1168,7 @@ body {
 }
 
 #account-overview-two-v2 .ct-points-color {
-  color: #FDFEFE !important;
+  color: #4C4E56 !important;
 }
 
 #account-overview-two-v2 .logout-link-container {
@@ -1236,11 +1236,11 @@ body {
 #purchase-history-v2 .activity-history td.points,
 #purchase-history-v2 .redemption-history td.points,
 #purchase-history-v2 .purchase-history-table td.points {
-    color: #FDFEFE !important;
+    color: #4C4E56 !important;
 }
 
 #activity-history-v2 .ct-points-color {
-    color: #FDFEFE !important;
+    color: #4C4E56 !important;
 }
 
 #reward-history-v2 {
