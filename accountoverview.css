@@ -1103,6 +1103,13 @@ body {
     color: #000000 !important;
 }
 
+#activity-list-v2 .activity {
+    background: #fff !important;
+    border-bottom: 1px solid #bbb;
+    padding: 10px;
+    cursor: pointer;
+}        
+
 #activity-list-v2 ul .activity .info-container .description {
     color: #000000 !important;
 }
@@ -1278,3 +1285,4 @@ body {
     left: 175px !important;
     bottom: 37px;
 }
+
