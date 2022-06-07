@@ -1095,12 +1095,12 @@ body {
 }
 
 #activity-list-v2 ul .activity button.title span {
-    color: #fa000c !important;
+    color: #000000 !important;
 }
 
 #activity-list-v2 ul .activity:hover button.title span,
 #activity-list-v2 ul .activity:focus button.title span {
-    color: #D8EFF4 !important;
+    color: #000000 !important;
 }
 
 #activity-list-v2 ul .activity .info-container .description {
@@ -1110,7 +1110,7 @@ body {
 #activity-list-v2 ul .point-value {
     background: #D8EFF4 !important;
     box-shadow: none;
-    color: #fff !important;
+    color: #000000 !important;
 }
 
 #activity-list-v2 ul .activity:hover .point-value,
