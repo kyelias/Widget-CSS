@@ -1095,12 +1095,12 @@ body {
 }
 
 #activity-list-v2 ul .activity button.title span {
-    color: #D8EFF4 !important;
+    color: #000000 !important;
 }
 
 #activity-list-v2 ul .activity:hover button.title span,
 #activity-list-v2 ul .activity:focus button.title span {
-    color: #7bc614 !important;
+    color: #D8EFF4 !important;
 }
 
 #activity-list-v2 ul .activity .info-container .description {
