@@ -1104,11 +1104,11 @@ body {
 }
 
 #activity-list-v2 ul .activity .info-container .description {
-    color: #D8EFF4 !important;
+    color: #000000 !important;
 }
 
 #activity-list-v2 ul .point-value {
-    background: #D8EFF4 !important;
+    background: #000000 !important;
     box-shadow: none;
     color: #fff !important;
 }
