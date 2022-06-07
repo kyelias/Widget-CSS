@@ -1095,7 +1095,7 @@ body {
 }
 
 #activity-list-v2 ul .activity button.title span {
-    color: #000000 !important;
+    color: #fa000c !important;
 }
 
 #activity-list-v2 ul .activity:hover button.title span,
@@ -1108,7 +1108,7 @@ body {
 }
 
 #activity-list-v2 ul .point-value {
-    background: #000000 !important;
+    background: #D8EFF4 !important;
     box-shadow: none;
     color: #fff !important;
 }
