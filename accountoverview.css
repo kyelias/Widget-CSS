@@ -1115,6 +1115,11 @@ body {
     background: #fff !important;
 }
 
+#activity-list-v2 .activity .info-container {
+    background: #fff;
+
+}
+
 #activity-list-v2 ul .point-value {
     background: #D8EFF4 !important;
     box-shadow: none;
