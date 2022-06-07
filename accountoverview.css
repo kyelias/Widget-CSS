@@ -1095,7 +1095,7 @@ body {
 }
 
 #activity-list-v2 ul .activity button.title span {
-    color: #383838 !important;
+    color: #D8EFF4 !important;
 }
 
 #activity-list-v2 ul .activity:hover button.title span,
@@ -1104,11 +1104,11 @@ body {
 }
 
 #activity-list-v2 ul .activity .info-container .description {
-    color: #383838 !important;
+    color: #D8EFF4 !important;
 }
 
 #activity-list-v2 ul .point-value {
-    background: #383838 !important;
+    background: #D8EFF4 !important;
     box-shadow: none;
     color: #fff !important;
 }
@@ -1116,7 +1116,7 @@ body {
 #activity-list-v2 ul .activity:hover .point-value,
 #activity-list-v2 ul .activity:focus .point-value {
     background-color: #fff !important;
-    box-shadow: 0 0 0 2px #383838 inset !important;
+    box-shadow: 0 0 0 2px #D8EFF4 inset !important;
     color: #7bc614 !important;
 }
 
