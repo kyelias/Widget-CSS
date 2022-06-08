@@ -517,10 +517,12 @@
 	  }
 	}
 
-	html, body {
-	  -ms-overflow-style: none;
-	  overflow: hidden;
-	  overflow-x: hidden
+	html,
+	body {
+	    -ms-overflow-style: none;
+	    background: rgba(255, 255, 255, 1);
+	    overflow: hidden;
+	    overflow-x: hidden
 	}
 
 	.widget .header {
